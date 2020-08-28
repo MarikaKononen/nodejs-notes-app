@@ -7,7 +7,7 @@ This is a notes app developed by Node.js - course exercise of Andrew Mead
 2. Run `npm install` in a root directory
 
 ## Used packages
-chalk https://www.npmjs.com/package/chalk
+chalk https://www.npmjs.com/package/chalk   
 yargs https://www.npmjs.com/package/yargs
 
 
