@@ -1,10 +1,8 @@
-const getNotes = require('./notes.js')
+const chalk = require('chalk')
+const getNotes = require('./notes')
+
+const success = chalk.green
 
 const msg = getNotes()
+console.log(success(msg))
 
-console.log(msg)
-
-// example
-// const add = require('./utils')
-// const sum = add(5, 5)
-// console.log(sum)
